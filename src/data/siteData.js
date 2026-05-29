@@ -109,6 +109,15 @@ export const aiFeatures = [
 
 export const socialCards = [
   { platform: "Instagram", copy: "Reels, carousel drops, route snapshots", cta: "Connect @sabircreates" },
-  { platform: "YouTube", copy: "Long-form ride films, gear breakdowns, route guides", cta: "Subscribe pipeline" },
+  { {
+  platform: "YouTube",
+  copy: "SabirCreates + Blogg Boss content",
+  cta: "Subscribe SabirCreates"
+},
+{
+  platform: "YouTube 2",
+  copy: "Moto rides, viral shorts, bike lifestyle",
+  cta: "Visit Blogg Boss"
+},
   { platform: "Community", copy: "Ride alerts, meetups, behind-the-scenes drops", cta: "Join the crew" }
 ];
