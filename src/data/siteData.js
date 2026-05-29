@@ -6,6 +6,7 @@ import monsoonImage from "../assets/images/gallery-monsoon.png";
 export const brand = {
   name: "SabirCreates",
   handle: "@sabircreates",
+  instagram: "https://instagram.com/sabircreates",
   niche: "Motorcycle travel, cinematic reels, adventure riding, travel storytelling",
   bike: "KTM Adventure 390 2026",
   heroImage
@@ -27,17 +28,17 @@ export const stats = [
 ];
 
 export const reels = [
+ {
+  title: "KTM Adventure Ride",
+  location: "Darjeeling",
+  metric: "Latest Reel",
+  image: himalayaImage,
+  type: "Instagram Reel"
+},
   {
-    title: "Himalayan Cold Start",
-    location: "Spiti Circuit",
-    metric: "1.2M reach goal",
-    image: himalayaImage,
-    type: "Instagram Reel"
-  },
-  {
-    title: "Desert Chase",
-    location: "Rajasthan",
-    metric: "Cinematic route cut",
+    title: "KTM Adventure 390",
+    location: "West Bengal",
+    metric: "Latest Moto Reel",
     image: desertImage,
     type: "YouTube Short"
   },
